@@ -1,0 +1,39 @@
+.mfpw-ul {
+	list-style: none;
+	padding: 0;
+}
+
+.mfpw-li {
+	margin-bottom: 10px;
+}
+
+.mfpw-time {
+	display: block;
+	color: #aaa;
+}
+
+.mfpw-clearfix:before,
+.mfpw-clearfix:after {
+	content: "";
+	display: table;
+}
+
+.mfpw-clearfix:after {
+	clear:both;
+}
+
+.mfpw-clearfix {
+	zoom:1;
+}
+
+/*plugin slider css starts*/
+.product-slider {}
+.product-slider-item { font-family: 'Montserrat'; border: 1px solid #ddd;  }
+.product-image { display: block; text-align: center; padding: 15px; }
+.product-meta-data { background: #77A464; color: #fff; padding: 15px; line-height: 1.4; text-align: center; }
+.product-meta-data a { color: inherit; }
+.product-meta-data a img { max-width: 200px; max-height: 200px; }
+.product-meta-data time { display: block; font-size: 11px; opacity: 0.5; margin-bottom: 10px; vertical-align: middle; }
+.product-meta-data .owl-carousel-item-imgcontent a { display: block; padding: 5px; background: #333; width: 150px; margin: 10px auto 0; }
+.product-meta-data .owl-carousel-item-imgcontent a:hover { background: #000; }			
+/*plugin slider css ends*/
